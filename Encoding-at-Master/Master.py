@@ -82,6 +82,9 @@ print (end - start)
 
 Jacob=[np.array([pow(lst[i],j,F) for j in range(m*n)]) for i in range(m*n)]
 
+end = datetime.now()
+print (end - start)
+
 #Forward Gaussian Elimination
 for i in range(m*n):
     for j in range(i+1,m*n):
